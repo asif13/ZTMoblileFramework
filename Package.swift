@@ -15,12 +15,8 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(name: "TestCore",
-                path: "TestCore/",
-                sources: ["TestCore/Sources"]
-               ),
-        .testTarget(name: "TestCoreTests",
-                    dependencies: ["TestCore"],
-                    path: "TestCore/TestCoreTests/")
+        .binaryTarget(name: "TestCore",
+                      url: "https://github.com/asif13/ZTMoblileFramework/releases/download/v0.0.1/TestCore.zip",
+                      checksum: "24bed1e438b8ef185ff4f1414fb942a916a751fc6eefa35f1be3cae48f312d24")
     ]
 )
