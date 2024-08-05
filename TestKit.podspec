@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.vendored_framework = 'TestCore.xcframework'
+  s.vendored_frameworks = 'TestCore.xcframework'
   
   # s.resource_bundles = {
   #   'TestKit' => ['TestKit/Assets/*.png']
