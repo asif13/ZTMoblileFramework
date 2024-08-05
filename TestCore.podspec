@@ -15,8 +15,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Commercial'}
   s.author           = { 'Asif Junaid' => 'asifjunaid7@gmail.com' }
 
+
   s.source            = {
-    :http => 'https://github.com/asif13/ZTMoblileFramework/releases/download/v0.0.4/TestCore.xcframework.zip',
+    :http => 'https://github.com/asif13/ZTMoblileFramework/releases/download/v0.0.1/TestCore.zip',
     :sha256 => '24bed1e438b8ef185ff4f1414fb942a916a751fc6eefa35f1be3cae48f312d24'
   }
 
