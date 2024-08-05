@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestCore'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of TestKit.'
 
   s.homepage         = 'https://github.com/asif13/ZTMoblileFramework'
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.vendored_framework = 'TestCore.xcframework'
-  
+  s.vendored_frameworks = 'TestCore.xcframework'
+  s.platform = :ios
   # s.resource_bundles = {
   #   'TestKit' => ['TestKit/Assets/*.png']
   # }
