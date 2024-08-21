@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestCore'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A short description of TestKit.'
 
   s.homepage         = 'https://github.com/asif13/ZTMoblileFramework'
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
 
   s.source            = {
-    :http => 'https://github.com/asif13/ZTMoblileFramework/releases/download/0.0.2/TestCore.xcframework.zip',
-    :sha256 => 'eccfdcdf757d54fcfef40a00e27a4f143475a96917dd2d8f91eea01e1c44b331'
+    :http => 'https://github.com/asif13/ZTMoblileFramework/releases/download/0.0.3/TestCore.xcframework.zip',
+    :sha256 => '504dd87056949a86692979f542a0943ec13a2382bab5bb35ad297c2ef2a8cef9'
   }
 
   s.ios.deployment_target = '13.0'
