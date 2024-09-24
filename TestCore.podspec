@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestCore'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7-alpha'
   s.summary          = 'A short description of TestKit.'
 
   s.homepage         = 'https://github.com/asif13/ZTMoblileFramework'
